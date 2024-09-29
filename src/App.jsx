@@ -1,20 +1,15 @@
-import Nav from "./sections/Nav"
-import Hero from "./sections/Hero"
-import About from "./sections/About"
-import Projects from "./sections/Projects"
-import Skills from "./sections/Skills"
-import Contact from "./sections/Contact"
-import Footer from "./sections/Footer"
+import {Nav, Hero, About, Projects, Skills, Contact, Footer} from "./index"
+
 
 
 const App = () => {
   return (
     <>
-      <main>
+      <main className="relative">
 
         <Nav />
 
-        <section>
+        {/* <section>
           <Hero />
         </section>
 
@@ -36,7 +31,7 @@ const App = () => {
 
         <section>
           <Footer />
-        </section>
+        </section> */}
 
       </main>
     </>
