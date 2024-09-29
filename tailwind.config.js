@@ -22,16 +22,20 @@ export default {
         montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
-        'primary': "#778899",
-        "bgclr": "#1f1f1f",
-        "txtclr": "#D5DBDB",
+        'primary': "#002233",
+        'secondary': "#0066FF",
+        "bgclr": "#0F0E0E",
+        "txtclr": "#A0CED9",
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
       },
       screens: {
         "wide": "1440px"
-      }
+      },
+      backgroundImage: {
+        'wave-pattern': "url('/assets/icons/bgImage.svg')",
+      },
     },
   },
   plugins: [],

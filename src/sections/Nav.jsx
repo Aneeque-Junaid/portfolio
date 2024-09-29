@@ -11,16 +11,16 @@ const Nav = () => {
   }
 
   return (
-    <nav className="bg-bgclr px-8 py-8 flex justify-between items-center shadow-lg">
+    <nav className="px-16 py-8 flex justify-between items-center ">
 
       <div>
-        <a href="/" className="font-montserrat font-extrabold text-2xl italic text-primary">
+        <a href="/" className="font-montserrat font-bold text-2xl italic text-white ">
           Aneeque 
         </a>
       </div>
 
-      <ul className="flex gap-16 items-center text-xl font-palanquin text-txtclr max-lg:hidden ">
-        <li><a href="/about">About</a></li>
+      <ul className="flex gap-16 items-center text-2xl font-palanquin text-[#f6f6f6] font-semibold max-lg:hidden ">
+        <li><a href="/about" >About</a></li>
         <li><a href="/projects">Projects</a></li>
         <li><a href="/skills">Skills</a></li>
         <li><a href="/contact">Contact</a></li>
@@ -29,15 +29,15 @@ const Nav = () => {
       
       <div className="lg:hidden z-50" onClick={handleMenu}>
         {isOpen ? (
-          <img src={close} alt="closeIcon" width={25} height={25} />
+          <img src={close} alt="closeIcon" width={30} height={30} />
         ) : (
-          <img src={hamburger} alt="hamburgerIcon" width={25} height={25} />
+          <img src={hamburger} alt="hamburgerIcon" width={30} height={30} />
         )}
       </div>
 
 
       {isOpen && (
-        <div className="absolute top-0 left-0 w-full h-screen bg-bgclr flex flex-col items-center justify-center text-txtclr">
+        <div className="absolute z-40 inset-0 bg-[#0d0d0d] top-0 left-0 w-full h-screen flex flex-col items-center justify-center font-semibold text-[#f6f6f6] text-2xl">
           <ul className="flex flex-col items-center gap-8 text-2xl font-palanquin">
             <li><a href="/about" onClick={handleMenu}>About</a></li>
             <li><a href="/projects" onClick={handleMenu}>Projects</a></li>

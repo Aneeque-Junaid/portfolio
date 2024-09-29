@@ -5,33 +5,33 @@ import {Nav, Hero, About, Projects, Skills, Contact, Footer} from "./index"
 const App = () => {
   return (
     <>
-      <main className="relative">
+      <main className="relative bg-wave-pattern bg-no-repeat">
 
         <Nav />
 
-        {/* <section>
+        <section>
           <Hero />
         </section>
 
         <section>
-          <About />
+          {/* <About /> */}
         </section>
 
         <section>
-          <Projects />
+          {/* <Projects /> */}
         </section>
 
         <section>
-          <Skills />
+          {/* <Skills /> */}
         </section>
 
         <section>
-          <Contact />
+          {/* <Contact /> */}
         </section>
 
         <section>
-          <Footer />
-        </section> */}
+          {/* <Footer /> */}
+        </section>
 
       </main>
     </>
