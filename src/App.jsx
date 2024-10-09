@@ -5,7 +5,7 @@ import {Nav, Hero, About, Projects, Skills, Contact, Footer} from "./index"
 const App = () => {
   return (
     <>
-      <main className="relative bg-wave-pattern bg-no-repeat">
+      <main className="relative max-container">
 
         <Nav />
 

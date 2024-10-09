@@ -1,5 +1,5 @@
-import hamburger from "../../assets/icons/hamburger.svg"
 import close from "../../assets/icons/close.svg"
+import hamburger from "../../assets/icons/hamburger.svg"
 import { useState } from "react"
 
 const Nav = () => {
@@ -11,15 +11,15 @@ const Nav = () => {
   }
 
   return (
-    <nav className="px-16 py-8 flex justify-between items-center ">
+    <nav className="px-16 py-4 flex justify-between items-center border-b-2">
 
       <div>
-        <a href="/" className="font-montserrat font-bold text-2xl italic text-white ">
+        <a href="/" className="font-montserrat font-extrabold text-3xl text-slate-900 ">
           Aneeque 
         </a>
       </div>
 
-      <ul className="flex gap-16 items-center text-2xl font-palanquin text-[#f6f6f6] font-semibold max-lg:hidden ">
+      <ul className="flex gap-16 items-center text-2xl font-palanquin text-slate-900 font-semibold max-lg:hidden ">
         <li><a href="/about" >About</a></li>
         <li><a href="/projects">Projects</a></li>
         <li><a href="/skills">Skills</a></li>
