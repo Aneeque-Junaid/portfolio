@@ -13,16 +13,16 @@ const App = () => {
           <Hero />
         </section>
 
+        <section className="mt-40">
+          <About />
+        </section>
+
         <section>
-          {/* <About /> */}
+          <Skills />
         </section>
 
         <section>
           {/* <Projects /> */}
-        </section>
-
-        <section>
-          {/* <Skills /> */}
         </section>
 
         <section>

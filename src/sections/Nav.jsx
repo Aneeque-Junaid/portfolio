@@ -11,19 +11,19 @@ const Nav = () => {
   }
 
   return (
-    <nav className="px-16 py-4 flex justify-between items-center border-b-2">
+    <nav className="px-8 sm:px-16 py-8 flex justify-between items-center border-b-2">
 
       <div>
-        <a href="/" className="font-montserrat font-extrabold text-3xl text-slate-900 ">
+        <a href="/" className="font-montserrat font-bold text-3xl text-slate-900 ">
           Aneeque 
         </a>
       </div>
 
       <ul className="flex gap-16 items-center text-2xl font-palanquin text-slate-900 font-semibold max-lg:hidden ">
-        <li><a href="/about" >About</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/skills">Skills</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><a href="/about" className="hover:text-gray-500 hover:border-b-2 hover:border-gray-500" >About</a></li>
+        <li><a href="/projects" className="hover:text-gray-500 hover:border-b-2 hover:border-gray-500">Projects</a></li>
+        <li><a href="/skills" className="hover:text-gray-500 hover:border-b-2 hover:border-gray-500">Skills</a></li>
+        <li><a href="/contact" className="hover:text-gray-500 hover:border-b-2 hover:border-gray-500">Contact</a></li>
       </ul>
 
       
