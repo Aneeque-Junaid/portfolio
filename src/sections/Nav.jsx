@@ -11,7 +11,7 @@ const Nav = () => {
   }
 
   return (
-    <nav className="px-8 sm:px-16 py-4 flex justify-between items-center border-b">
+    <nav className="px-8 sm:px-16 py-4 flex justify-between items-center">
 
       <div>
         <a href="/" className="font-montserrat font-bold text-3xl text-blue-400 ">
@@ -20,10 +20,10 @@ const Nav = () => {
       </div>
 
       <ul className="flex gap-16 items-center text-2xl font-palanquin text-blue-400 font-semibold max-lg:hidden ">
-        <li><a href="/about" className="hover:text-blue-500 hover:border-b-2 hover:border-blue-500" >About</a></li>
-        <li><a href="/projects" className="hover:text-blue-500 hover:border-b-2 hover:border-blue-500">Projects</a></li>
-        <li><a href="/skills" className="hover:text-blue-500 hover:border-b-2 hover:border-blue-500">Skills</a></li>
-        <li><a href="/contact" className="hover:text-blue-500 hover:border-b-2 hover:border-blue-500">Contact</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/skills">Skills</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
 
       

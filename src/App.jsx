@@ -1,6 +1,4 @@
-import {Nav, Hero, About, Projects, Skills, Contact, Footer} from "./index"
-
-
+import { Nav, Hero, About, Projects, Skills, Contact, Footer } from "./index";
 
 const App = () => {
   return (
@@ -9,33 +7,21 @@ const App = () => {
 
         <Nav />
 
-        <section>
-          <Hero />
-        </section>
+        <Hero />
 
-        <section>
-          <About />
-        </section>
+        <About />
 
-        <section >
-          <Skills />
-        </section>
+        <Skills />
 
-        <section>
-          {/* <Projects /> */}
-        </section>
+        {/* <Projects /> */}
 
-        <section>
-          {/* <Contact /> */}
-        </section>
-
-        <section>
-          {/* <Footer /> */}
-        </section>
-
+        {/* <Contact /> */}
+        
+        {/* <Footer /> */}
+        
       </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

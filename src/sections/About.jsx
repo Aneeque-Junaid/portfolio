@@ -1,40 +1,29 @@
-import React from 'react'
+import aboutImage from "../../assets/icons/AboutImage.webp"; 
 
-const About = () => (
-    <section className='w-full pt-4'>
+const About = () => {
+  return (
+    <section className='flex flex-col lg:flex-row items-center justify-center w-full px-8 py-16 gap-16'>
       
-        <p className='text-lg text-[#333] text-center font-montserrat'>Get To Know More</p>
-        <h1 className='text-4xl text-black font-bold text-center font-montserrat'>About Me</h1>
-
-      <div className='flex flex-col lg:flex-row items-center justify-evenly lg:mx-16'>
-
-        <div className='w-full h-full flex items-center justify-center'>
-          <img src="https://placehold.co/300x300" alt="" className='rounded-3xl w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] ' />
-        </div>
-
-        <div className='h-full w-4/5 lg:w-full flex flex-col items-center justify-center'>
-
-          <div className='flex sm:flex-row flex-col w-full justify-center gap-8 my-8'>
-
-            <div className='p-8 border border-[#333] rounded-3xl text-center'>
-              <h1 className='text-2xl font-bold text-black mb-4 font-palanquin'>Experience</h1>
-              <p className='text-lg text-[#636161] font-montserrat'>Worked as a frontend developer on fiver projects.</p>
-            </div>
-
-            <div className='p-8 border border-[#333] rounded-3xl text-center'>
-              <h1 className='text-2xl font-bold text-black mb-4 font-palanquin'>Education</h1>
-              <p className='text-lg text-[#636161] font-montserrat'>Bachelors in Science in Software Engineering.</p>
-            </div>
-
-          </div>
-
-          <p className='text-base md:text-xl text-[#333] font-montserrat'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sed dolorum atque voluptatum voluptatem cupiditate, harum consectetur eius tenetur ullam ea aperiam vero corporis numquam provident hic cum culpa reprehenderit impedit? Consequuntur illo reiciendis ipsam perspiciatis dignissimos autem ex ipsa nulla consectetur saepe, veniam non et quibusdam natus culpa? Minima.</p>
-        
-        </div>
-      
+      <div className='text-center lg:text-left max-w-lg'>
+        <h2 className='text-3xl font-bold text-blue-400 font-montserrat'>About Me</h2>
+        <p className='mt-4 text-lg text-gray-500 font-palanquin'>
+          I am a passionate Front-End Developer who loves to create interactive and responsive web applications. 
+          With a strong foundation in JavaScript, React, and CSS, I enjoy turning complex problems into simple, 
+          beautiful, and intuitive designs. My goal is to build websites that deliver the best user experience possible.
+        </p>
+        <p className='mt-4 text-lg text-gray-500 font-palanquin'>
+          In my free time, I like to explore new technologies, contribute to open-source projects, and enhance my coding skills.
+        </p>
+        <a href="/projects" className='mt-6 inline-block px-6 py-3 border border-blue-400 text-blue-400 rounded-full hover:bg-blue-400 hover:text-white font-palanquin'>
+          View My Work
+        </a>
       </div>
-
+      
+      <div className='flex justify-center'>
+        <img src={aboutImage} alt="About me" className='w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] object-contain' />
+      </div>
     </section>
-  )
+  );
+}
 
-export default About
+export default About;
