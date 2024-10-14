@@ -1,4 +1,4 @@
-import aboutImage from "../../assets/icons/AboutImage.webp"; 
+import aboutImage from "../../assets/images/AboutImage.webp"; 
 
 const About = () => {
   return (

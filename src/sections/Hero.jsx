@@ -1,7 +1,7 @@
 import React from 'react'
-import github from "../../assets/icons/github.svg"
-import linkedin from "../../assets/icons/linkedin.svg"
-import HeroImg from "../../assets/icons/HeroImg.webp"
+import github from "../../assets/logos/github.svg"
+import linkedin from "../../assets/logos/linkedin.svg"
+import HeroImage from "../../assets/images/HeroImage.webp"
 
 const Hero = () => (
     <section className='flex lg:flex-row flex-col-reverse items-center justify-center gap-8 w-full h-screen'>
@@ -25,7 +25,7 @@ const Hero = () => (
       </div>
 
       <div className=''>
-        <img src={HeroImg} alt="Hero_image"  className="lg:w-[400px] lg:h-[400px] w-[250px] h-[250px] object-contain"/>
+        <img src={HeroImage} alt="Hero_image"  className="lg:w-[400px] lg:h-[400px] w-[250px] h-[250px] object-contain"/>
       </div>
 
     </section>
