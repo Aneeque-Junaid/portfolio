@@ -4,17 +4,17 @@ import linkedin from "../../assets/logos/linkedin.svg"
 import HeroImage from "../../assets/images/HeroImage.webp"
 
 const Hero = () => (
-    <section className='flex lg:flex-row flex-col-reverse items-center justify-center gap-8 w-full h-screen'>
+    <section className='flex lg:flex-row flex-col-reverse items-center justify-center lg:justify-evenly gap-8 w-full h-screen px-16'>
 
-      <div className='text-center lg:text-left'>
-        <p className='text-2xl text-gray-500 font-semibold font-palanquin'>Hello, I'm</p>
-        <h1 className='text-[35px] font-bold sm:text-4xl font-montserrat text-blue-400'>Aneeque Junaid</h1>
-        <p className='text-2xl font-bold text-gray-500 sm:text-3xl font-palanquin'>Front-End Developer</p>
-        <p className='text-2xl font-bold text-blue-400 sm:text-3xl font-palanquin'>I code beautiful and responsive website</p>
+      <div className='text-center'>
+        <p className='text-2xl text-[#6B7280] font-semibold mb-4'>Hello, I'm</p>
+        <h1 className='text-[35px] leading-[38px] font-bold sm:text-4xl text-[#3E3E3E] mb-4'>Aneeque Junaid</h1>
+        <p className='text-2xl font-bold text-[#6B7280] sm:text-3xl mb-4'>Front-End Developer</p>
+        <p className='text-2xl font-bold text-[#3E3E3E] sm:text-3xl'>I code beautiful and responsive website</p>
 
         <div className='mt-6 flex justify-center gap-4'>
-          <button className='font-palanquin px-4 sm:px-6 py-4 border-[1px] font-semibold rounded-full text-sm text-blue-400 border-blue-400 hover:bg-blue-400 hover:text-white '>Download CV</button>
-          <button className='font-palanquin px-4 sm:px-6 py-4 border-[1px] font-semibold rounded-full text-sm border-blue-400  bg-blue-400 text-white hover:bg-white hover:text-blue-400 '>Contact Me</button>
+          <button className='px-4 sm:px-6 py-4 border font-semibold rounded-full text-sm text-white bg-primary hover:bg-bgclr hover:text-primary hover:border-primary '>Download CV</button>
+          <button className='px-4 sm:px-6 py-4 border font-semibold rounded-full text-sm text-primary border-primary bg-bgclr hover:bg-primary hover:text-white '>Contact Me</button>
         </div>
 
         <div className='flex justify-center gap-4 mt-6 '>

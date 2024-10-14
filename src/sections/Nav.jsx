@@ -14,16 +14,16 @@ const Nav = () => {
     <nav className="px-8 sm:px-16 py-4 flex justify-between items-center">
 
       <div>
-        <a href="/" className="font-montserrat font-bold text-3xl text-blue-400 ">
+        <a href="/" className="font-bold text-3xl text-primary ">
           Aneeque 
         </a>
       </div>
 
-      <ul className="flex gap-16 items-center text-2xl font-palanquin text-blue-400 font-semibold max-lg:hidden ">
-        <li><a href="/about">About</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/skills">Skills</a></li>
-        <li><a href="/contact">Contact</a></li>
+      <ul className="flex gap-16 items-center text-2xl text-primary font-semibold max-lg:hidden ">
+        <li>About</li>
+        <li>Skills</li>
+        <li>Project</li>
+        <li>Contact</li>
       </ul>
 
       
@@ -38,7 +38,7 @@ const Nav = () => {
 
       {isOpen && (
         <div className="absolute z-40 inset-0 bg-[#0d0d0d] top-0 left-0 w-full h-screen flex flex-col items-center justify-center font-semibold text-[#f6f6f6] text-2xl">
-          <ul className="flex flex-col items-center gap-8 text-2xl font-palanquin">
+          <ul className="flex flex-col items-center gap-8 text-2xl">
             <li><a href="/about" onClick={handleMenu}>About</a></li>
             <li><a href="/projects" onClick={handleMenu}>Projects</a></li>
             <li><a href="/skills" onClick={handleMenu}>Skills</a></li>

@@ -39,7 +39,7 @@ export const projects = [
       image: hoobank, 
       description: 'Hoobank is a modern banking application built with React and Tailwind CSS. It features a sleek user interface that allows users to manage their finances effortlessly, showcasing responsive design and interactive components for an enhanced user experience.',
       techStack: {
-        tech: ["React", "TailwindCSS"],
+        tech: ["React", "TailwindCSS", "JavaScript"],
       },
     },
     {
@@ -49,7 +49,7 @@ export const projects = [
       image: niketailwind, 
       description: "The Nike Website is a visually appealing landing page developed with React and Tailwind CSS. It highlights Nike's latest products with a clean, responsive layout, creating an engaging experience for users.",
       techStack: {
-        tech: ["React", "TailwindCSS"],
+        tech: ["React", "TailwindCSS", "JavaScript"],
       },
     },
   ];

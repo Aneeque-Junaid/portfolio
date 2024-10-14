@@ -3,7 +3,7 @@ import { Nav, Hero, About, Projects, Skills, Contact, Footer } from "./index";
 const App = () => {
   return (
     <>
-      <main className="relative max-container">
+      <main className="relative max-container text-montserrat bg-bgclr">
 
         <Nav />
 
@@ -15,9 +15,9 @@ const App = () => {
 
         <Projects />
 
-        {/* <Contact /> */}
+        <Contact />
         
-        {/* <Footer /> */}
+        <Footer />
         
       </main>
     </>

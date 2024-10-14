@@ -22,10 +22,9 @@ export default {
         montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
-        'primary': "#002233",
-        'secondary': "#0066FF",
-        "bgclr": "#0F0E0E",
-        "txtclr": "#A0CED9",
+        'primary': "#3E3E3E",
+        'secondary': "#2E2E2E",
+        "bgclr": "#f7f3e9",
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
