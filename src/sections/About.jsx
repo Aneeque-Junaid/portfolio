@@ -2,7 +2,7 @@ import aboutImage from "../../assets/images/AboutImage.webp";
 
 const About = () => {
   return (
-    <section className='flex flex-col lg:flex-row items-center justify-center w-full px-8 py-16 gap-16'>
+    <section id="about" className='flex flex-col lg:flex-row items-center justify-center w-full px-8 py-16 gap-16'>
       
       <div className='text-center lg:text-left max-w-lg'>
         <h2 className='text-3xl font-bold text-primary underline'>About Me</h2>
