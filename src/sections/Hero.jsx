@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 
 const Hero = () => (
-  <section className='flex lg:flex-row flex-col-reverse items-center justify-center lg:justify-evenly gap-8 lg:h-screen w-full my-24 lg:my-0 px-4 lg:px-16'>
+  <section className='flex lg:flex-row flex-col-reverse items-center justify-center lg:justify-evenly gap-8 lg:h-screen w-full mb-24 lg:my-0 px-4 lg:px-16'>
 
     <motion.div
       initial={{ opacity: 0, y: -40 }} 
@@ -14,10 +14,11 @@ const Hero = () => (
       transition={{ duration: 0.6, ease: 'easeOut' }} 
       className='text-center'
     >
-      <p className='text-lg text-secondary font-semibold mb-2 md:mb-0'>Hello, I'm</p>
-      <h1 className='text-2xl font-bold sm:text-3xl text-primary mb-2 md:mb-0 whitespace-nowrap'>Aneeque Junaid</h1>
-      <p className='text-xl font-bold text-secondary sm:text-2xl mb-2 md:mb-0'>Front-End Developer</p>
-      <p className='text-xl font-bold text-primary sm:text-2xl'>I code beautiful and responsive websites</p>
+      <h1 className='text-xl sm:text-2xl font-semibold text-secondary mb-2 md:mb-0'>Hello, I'm <span className='text-primary text-3xl font-bold sm:text-4xl underline'>Aneeque </span>
+      </h1>
+      <p className='text-xl font-bold text-secondary sm:text-2xl mb-2'>Front-End Developer</p>
+      <p className='text-xl font-bold text-primary sm:text-2xl w-[24ch] md:-[40ch]'>Transforming your <span className='text-secondary'>ideas </span> into <span className='text-secondary'>reality </span> with stunning, responsive websites.</p>
+  
 
       <div className='mt-6 flex justify-center gap-4'>
         <button className='px-4 sm:px-6 py-4 border font-semibold rounded-full text-sm text-white bg-primary hover:bg-bgclr hover:text-primary hover:border-primary '>

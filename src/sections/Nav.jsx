@@ -67,7 +67,7 @@ const Nav = () => {
       {isOpen && (
         <div
           onClick={handleMenu}
-          className="absolute z-50 inset-0 bg-black top-0 left-0 w-full h-screen flex flex-col items-center justify-center font-semibold text-primary text-2xl"
+          className="absolute z-50 inset-0 bg-bgclr top-0 left-0 w-full h-screen flex flex-col items-center justify-center font-semibold text-primary text-2xl"
         >
           <img src={close} alt="closeIcon" width={30} height={30} className="absolute right-8 top-7" />
           <ul className="flex flex-col items-center gap-8 text-2xl">
