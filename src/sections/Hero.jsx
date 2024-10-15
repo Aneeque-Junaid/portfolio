@@ -5,18 +5,18 @@ import HeroImage from "../../assets/images/HeroImage.webp";
 import { motion } from 'framer-motion'; // Import Framer Motion
 
 const Hero = () => (
-  <section className='flex lg:flex-row flex-col-reverse items-center justify-center lg:justify-evenly gap-8 w-full h-screen px-16 mt-8 lg:mt-0'>
+  <section className='flex lg:flex-row flex-col-reverse items-center justify-center lg:justify-evenly gap-8 lg:h-screen w-full my-24 lg:my-0 px-4 lg:px-16'>
 
     <motion.div
-      initial={{ opacity: 0, y: -50 }} 
+      initial={{ opacity: 0, y: -40 }} 
       animate={{ opacity: 1, y: 0 }}    
-      transition={{ duration: 1, ease: 'easeOut' }} 
+      transition={{ duration: 0.6, ease: 'easeOut' }} 
       className='text-center'
     >
-      <p className='text-2xl text-[#6B7280] font-semibold mb-2 md:mb-0'>Hello, I'm</p>
-      <h1 className='text-[35px] leading-[38px] font-bold sm:text-4xl text-[#3E3E3E] mb-2 md:mb-0'>Aneeque Junaid</h1>
-      <p className='text-2xl font-bold text-[#6B7280] sm:text-3xl mb-2 md:mb-0'>Front-End Developer</p>
-      <p className='text-2xl font-bold text-[#3E3E3E] sm:text-3xl'>I code beautiful and responsive websites</p>
+      <p className='text-lg text-secondary font-semibold mb-2 md:mb-0'>Hello, I'm</p>
+      <h1 className='text-2xl font-bold sm:text-3xl text-primary mb-2 md:mb-0 whitespace-nowrap'>Aneeque Junaid</h1>
+      <p className='text-xl font-bold text-secondary sm:text-2xl mb-2 md:mb-0'>Front-End Developer</p>
+      <p className='text-xl font-bold text-primary sm:text-2xl'>I code beautiful and responsive websites</p>
 
       <div className='mt-6 flex justify-center gap-4'>
         <button className='px-4 sm:px-6 py-4 border font-semibold rounded-full text-sm text-white bg-primary hover:bg-bgclr hover:text-primary hover:border-primary '>
@@ -38,9 +38,9 @@ const Hero = () => (
     </motion.div>
 
     <motion.div
-      initial={{ opacity: 0, y: -50 }}  
+      initial={{ opacity: 0, y: -40 }}  
       animate={{ opacity: 1, y: 0 }}    
-      transition={{ duration: 1, ease: 'easeOut' }}  
+      transition={{ duration: 0.6, ease: 'easeOut' }}  
     >
       <img src={HeroImage} alt="Hero_image" className="lg:w-[400px] lg:h-[400px] w-[250px] h-[250px] object-contain" />
     </motion.div>

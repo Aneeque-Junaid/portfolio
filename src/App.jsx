@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 
 const App = () => {
 
-const [aboutRef, aboutInView] = useInView({
+  const [aboutRef, aboutInView] = useInView({
   triggerOnce: true,
   threshold: 0.2,
 })
@@ -16,7 +16,7 @@ const [skillsRef, skillsInView] = useInView({
 
 const [projectsRef, projectsInView] = useInView({
   triggerOnce: true,
-  threshold: 0.2,
+  threshold: 0.1,
 })
 
 const [contactRef, contactInView] = useInView({

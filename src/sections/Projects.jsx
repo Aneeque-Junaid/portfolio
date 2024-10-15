@@ -26,7 +26,7 @@ const Projects = () => (
               </a>
             </div>
             <div className="p-6 bg-white">
-              <h3 className="text-xl font-semibold mb-2 text-primary">{project.title}</h3>
+              <h3 className="text-xl font-semibold mb-2 underline text-primary">{project.title}</h3>
               <p className=" mb-4 text-secondary">{project.description}</p>
               <div className="flex flex-wrap gap-2">
                 {project.techStack.tech.map((tech, index) => (

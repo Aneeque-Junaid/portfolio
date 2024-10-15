@@ -11,7 +11,7 @@ const Skills = () => (
             alt={skill.name}
             className="h-16 w-16 object-contain"
           />
-          <p className="mt-2 text-center text-lg text-primary">{skill.name}</p>
+          <p className="mt-2 text-center text-lg text-secondary">{skill.name}</p>
         </div>
       ))}
     </div>
