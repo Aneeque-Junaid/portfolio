@@ -1,4 +1,5 @@
 import aboutImage from "../../assets/images/AboutImage.webp"; 
+import { Link } from "react-scroll";
 
 const About = () => {
   return (
@@ -14,9 +15,11 @@ const About = () => {
         <p className='mt-4 text-xl text-secondary'>
           In my free time, I like to explore new technologies, contribute to open-source projects, and enhance my coding skills.
         </p>
-        <a href="/projects" className='mt-6 inline-block px-6 py-3 border border-primary text-primary rounded-full hover:bg-primary hover:text-white'>
+        <Link className=' cursor-pointer mt-6 inline-block px-6 py-3 border border-primary text-primary rounded-full hover:bg-primary hover:text-white'
+          to="projects" smooth={true} duration={100}
+        >
           View My Work
-        </a>
+        </Link>
       </div>
       
       <div className='flex justify-center'>
