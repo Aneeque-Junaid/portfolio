@@ -14,7 +14,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="px-8 sm:px-16 py-4 flex justify-between items-center relative z-50">
+    <nav className="px-8 sm:px-16 py-4 flex justify-between items-center relative z-50 mb-8 lg:mb-0">
       <motion.div
         initial={{ opacity: 0, y: -40 }}  
         animate={{ opacity: 1, y: 0 }}    

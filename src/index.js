@@ -27,6 +27,8 @@ export const skills = [
     { name: 'Tailwind CSS', logo: tailwindcss }, // Corrected
     { name: 'Redux', logo: redux },
 ];
+
+export const CVURL = 'https://drive.google.com/uc?export=download&id=1Gmb-7rVvEHIx7-ZD7RcpCAXZ-xinq0I_'
   
 
 export {Nav, Hero, About, Projects, Skills, Contact, Footer}
