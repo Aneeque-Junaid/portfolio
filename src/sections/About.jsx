@@ -1,4 +1,4 @@
-import aboutImage from "../../assets/images/AboutImage.webp"; 
+import aboutImage from "../../assets/images/aboutImage.webp"; 
 import { Link } from "react-scroll";
 
 const About = () => {
