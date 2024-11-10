@@ -34,10 +34,10 @@ const Hero = () => (
       </div>
 
       <div className='flex justify-center gap-4 mt-6'>
-        <a href="https://github.com/Aneeque-Junaid" target='_blank' rel='noopener noreferrer'>
+        <a href="https://www.linkedin.com/in/aneeque-junaid/" target='_blank' rel='noopener noreferrer'>
           <img src={linkedin} height={40} width={40} alt="linkedinIcon" />
         </a>
-        <a href="https://www.linkedin.com/in/aneeque-junaid/" target='_blank' rel='noopener noreferrer'>
+        <a href="https://github.com/Aneeque-Junaid" target='_blank' rel='noopener noreferrer'>
           <img src={github} height={40} width={40} alt="githubIcon" />
         </a>
       </div>
