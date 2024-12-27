@@ -17,6 +17,7 @@ import nextjs from '../assets/logos/nextjs.svg';
 
 import hoobank from "../assets/images/hoobank.png"
 import niketailwind from "../assets/images/niketailwind.png"
+import BlogSphere from "../assets/images/BlogSphere.png"
 
 export const skills = [
     { name: 'HTML', logo: html },
@@ -34,8 +35,18 @@ export const CVURL = 'https://drive.google.com/uc?export=download&id=1Gmb-7rVvEH
 export {Nav, Hero, About, Projects, Skills, Contact, Footer}
 
 export const projects = [
+  {
+    id: 1,
+    title: 'BlogSphere',
+    link: 'https://blogsphere-project.vercel.app/',
+    image: BlogSphere, 
+    description: "BlogSphere is a modern blogging platform built with Next.js, featuring dynamic routing, responsive design, and server-side data fetching to deliver a seamless and engaging user experience.",
+    techStack: {
+        tech: ["NextJS", "TailwindCSS", "NodeJS", "ExpressJS", "MongoDB"],
+    },
+  },
     {
-      id: 1,
+      id: 2,
       title: 'Hoobank',
       link: 'https://hoobank1001.netlify.app/',
       image: hoobank, 
@@ -45,7 +56,7 @@ export const projects = [
       },
     },
     {
-      id: 2,
+      id: 3,
       title: 'Nike Website',
       link: 'https://shoewebsitenike.netlify.app/',
       image: niketailwind, 
