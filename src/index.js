@@ -18,6 +18,7 @@ import nextjs from '../assets/logos/nextjs.svg';
 import hoobank from "../assets/images/hoobank.png"
 import niketailwind from "../assets/images/niketailwind.png"
 import BlogSphere from "../assets/images/BlogSphere.png"
+import GearHive from "../assets/images/GearHiveHero.png"
 
 export const skills = [
     { name: 'HTML', logo: html },
@@ -35,18 +36,28 @@ export const CVURL = 'https://drive.google.com/uc?export=download&id=1Gmb-7rVvEH
 export {Nav, Hero, About, Projects, Skills, Contact, Footer}
 
 export const projects = [
-  {
-    id: 1,
-    title: 'BlogSphere',
-    link: 'https://blogsphere-project.vercel.app/',
-    image: BlogSphere, 
-    description: "BlogSphere is a modern blogging platform built with Next.js, featuring dynamic routing, responsive design, and server-side data fetching to deliver a seamless and engaging user experience.",
-    techStack: {
-        tech: ["NextJS", "TailwindCSS", "NodeJS", "ExpressJS", "MongoDB"],
+    {
+      id: 1,
+      title: 'BlogSphere',
+      link: 'https://blogsphere-project.vercel.app/',
+      image: BlogSphere, 
+      description: "BlogSphere is a modern blogging platform built with Next.js, featuring dynamic routing, responsive design, and server-side data fetching to deliver a seamless and engaging user experience.",
+      techStack: {
+          tech: ["NextJS", "TailwindCSS", "NodeJS", "ExpressJS", "MongoDB"],
+      },
     },
-  },
     {
       id: 2,
+      title: 'GearHive',
+      link: 'https://gearhive.vercel.app/',
+      image: GearHive, 
+      description: "GearHive is a cutting-edge e-commerce platform built with Next.js, offering seamless navigation, dynamic product displays, and responsive design.",
+      techStack: {
+        tech: ["NextJS", "TailwindCSS", "ShadcnUI", "Sonner"],
+      },
+    },
+    {
+      id: 3,
       title: 'Hoobank',
       link: 'https://hoobank1001.netlify.app/',
       image: hoobank, 
@@ -56,7 +67,7 @@ export const projects = [
       },
     },
     {
-      id: 3,
+      id: 4,
       title: 'Nike Website',
       link: 'https://shoewebsitenike.netlify.app/',
       image: niketailwind, 
